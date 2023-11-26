@@ -1,0 +1,182 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "kcet_Fee",
+        "patterns": [
+          
+          "fee for Kcet Student?",
+          "Kcet fee?",
+          "what is the kcet fee?"
+        ],
+        "responses": [
+          "The fee for Kcet is Rs 90000"
+          
+        ]
+      },
+      {
+        "tag":"Comdek_fee",
+        "patterns":[
+          "fee for Comdek ?",
+          "what is the Comdek fee?",
+          "Comdek fee?"    
+      ],
+      "responses":[
+      "the fee for comdek is  around 2 lakhs"
+      ]   
+      },
+      {
+        "tag": "hostel_fee",
+        "patterns": [
+          "what is the hostel fee for boys?",
+          "what is the hostel fee for girls?",
+          "what is the hostel fee?"
+        ],
+        "responses": [
+          "For both boys and girls the hostel fee is same and the fee varies depending on number of students sharing the room . for 3 sharings it is Rs. 95000,for  4sharing is Rs. 85000"
+        ]
+      },
+      {
+        "tag": "Additional_fee",
+        "patterns": [
+          "do you take any additional fee?",
+          "is there any additional fee?",
+          "any extra fee is to be paid?"
+        ],
+        "responses": [
+          "there are no additional fee except the examination fee which needs to be paid every sem which is now  Rs.2200 and the fee may be subjected to change"
+        ]
+      },
+      {
+        "tag": "College_bus",
+        "patterns": [
+          "is there availability of college bus?",
+          "transportation facility for thr student?"
+        ],
+        "responses": [
+          "yes,we do have college buses for the transportation of the student and the fee structure is extra for that and it wil depend on the palce from where the student is bording."
+        ]
+      },
+      {
+        "tag": "ISE_Vision",
+        "patterns": [
+          "vision of ise?",
+          "ise vision ?",
+          "vision of department",
+          "what is the vision of ise?"
+        ],
+        "responses": [
+          "Vision:\n>To excel in teaching and research in the field of Information Science and Engineering to meet emerging challenges of society.\n\n***A per the information avialable on the official GAT website(https://gat.ac.in/index)***"
+        ]
+      },
+      {
+        "tag": "ISE_Mission",
+        "patterns": [
+          "mission of ise?",
+          "ise mission ?",
+          "what is the mission of ise?"
+        ],
+        "responses": [
+          "Mission:\n>To inculcate strong academic foundation in the Information Technology domain for successful career and lifelong learning.\n>To strengthen research and development activities through interaction with industry.\n>To instil professional ethics and social values with concern for environment.\n\n***A per the information avialable on the official GAT website(https://gat.ac.in/index)***"
+        ]
+      },
+      {
+        "tag": "ISE_Faculty",
+        "patterns": [
+          "Who is head of the department of ISE?",
+      
+          "faculty details of ise ?",
+          "faculty details",
+          "ise faculty details?"
+        ],
+        "responses": [
+          "Head Of The Department is Dr.Kiran Y.C (M.Tech,Ph.D)",
+          "HOD-\n>Dr.Kiran Y.C (M.Tech,Ph.D)\n Associate Professors-\n>Dr. Manjunath S.M(Tech,Ph.D)\n>Dr.Vimuktha Evangeleen Salis(BSc,MS,Ph.D)\nAssistant Professor- Dr. Sridhar R. (M.Tech, Ph.D)\n Deepthi V. S.(M.Tech)\nSharmila C(M.Tech)\n Patanjali C(M.Tech)\n Kavita V Horadi(M.Tech)\n Vijay Kumar S(M.Tech)\n Hemanth Chandra N(M.Tech)\n Indushree M(M.Tech)\n Poornima R M(M.Tech)\n Subhash Kamble(M.Tech)\n Indu B(M.Tech)\n Mahendra M K(M.Tech)\n Prashanth J(M.Tech)\n\n***A per the information avialable on the official GAT website(https://gat.ac.in/index)***"
+        ]
+      },
+      {
+        "tag": "Placement_Details",
+        "patterns": [
+          "what about placement?",
+          "information about placement?",
+          "placement details?",
+          "year wise statistics"
+        ],
+        "responses": [
+          ">700+ Students registered.\n>125+ companies visited.\n>750+ placemnts offers.\n>22 LPA highest CTC.\n>5.17 LPA average CTC.\n>150+ Stipend-Based Internships with highest Stipend of 48k per Month\n\n***A per the information avialable on the official GAT website(https://gat.ac.in/index)***",
+          ">2018-19:94.82%\n>2019-20:95.37%\n>2020-21:96.45%\n>2021-22:97.13%\n\n***A per the information avialable on the official GAT website(https://gat.ac.in/index)***"
+        ]
+      },
+      {
+        "tag": "KCET_Ranking",
+        "patterns": [
+          "what is the KCET cutoff rank of ise for Hyderabad karnataka or HK students?",
+          "KCET cutoff rank for Hyderabad karnataka or HK students?",
+          "what is the KCET cutoff rank of ise for Genral(GR)students",
+          "general KCET cutoff",
+          "hyderabad karnataka KCET cutoff"
+        ],
+        "responses": [
+          "Hyderabad karnataka or HK KCET cutoff of ISE for the year 2022 is\n>(catagory followed by rank)\n>2AH-52491\n>2ARH-62001\n>2BH-69094\n>GMH-34570",
+          "General KCET cutoff of ISE for the year 2022 is\n>(catagory followed by rank)\n>1G-39994\n>2AG-44591\n>2AK-81172\n>2AR-58447\n>2BG-55280\n>3AG-29719\n>3BG-32594\n>3BR-47729\n>GM-28631\n>GMK-41378\n>GMR-43334\n>SCG-89456\n>SCK-92904\n>SCR-150843\n>STG-56803\n>STR-62529"
+        ]
+      },
+      {
+        "tag": "COMDEK_Ranking",
+        "patterns": [
+          "what is the COMDEK cutoff rank of ise for Hyderabad karnataka(HK) students?",
+          "COMDEK cutoff rank for Hyderabad karnataka(HK) students?",
+          "what is the COMDEK cutoff rank of ise for Genral(GR)students",
+          "what is the COMDEK cutoff rank of ise for NON-Hyderabad karnataka(N-HK) students",
+          "general COMDEK cutoff",
+          "hyderabad karnatak COMDEK cutoff"
+        ],
+        "responses": [
+          "There is no spearate seat allocation based on region or category. The students can claim seats through genral merit\nCOMDEK cutoff rank for ise  for the year 2022 is 47480 "
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with UPI?",
+          "Are you cash only?",
+          "mode of payment"
+        ],
+        "responses": [
+          "along with cash , we accept cards , UPI , NEFT and RTGS"
+        ]
+      }
+    ]
+  }
